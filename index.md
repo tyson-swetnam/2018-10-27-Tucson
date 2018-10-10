@@ -6,7 +6,7 @@ address: "FIXME"      # full street address of workshop (e.g., "Room A, 123 Fort
 country: "FIXME"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "FIXME"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
 latlng: "FIXME"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
-humandate: "Oct. 27-28, 2018E"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humandate: "Oct. 27-28, 2018"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "8:30-17:00"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2018-10-27      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2018-10-28        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
@@ -50,6 +50,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 If you are running a self-organized workshop or have not put in a workshop request yet, please also fill in 
 <a href="{{site.amy_site}}/submit">this workshop request form</a> to let us know about your workshop
 and our administrator may contact you if we need any extra information.</h4>
+
+<p><h4><center><strong>Apply for the workshop at <a href="https://goo.gl/8gmej3" target='blank'>https://goo.gl/8gmej3T</a>.</strong></center></h4></p>
 
 <h2 id="general">General Information</h2>
 
@@ -142,20 +144,23 @@ and our administrator may contact you if we need any extra information.</h4>
 <p id="accessibility">
   <strong>Accessibility:</strong> We are committed to making this workshop
   accessible to everybody.
-  The workshop organizers have checked that:
+  The workshop organisers have checked that:
 </p>
 <ul>
   <li>The room is wheelchair / scooter accessible.</li>
   <li>Accessible restrooms are available.</li>
 </ul>
 <p>
+  Links to workshop materials are being provided below. If we can provide additional resources to help making learning easier for you (e.g. large-font hand-outs, sign-language interpreters, lactation facilities) please get in touch (using contact details below) and we will attempt to provide them.
+</p>
+<!--<p>
   Materials will be provided in advance of the workshop and
   large-print handouts are available if needed by notifying the
   organizers in advance.  If we can help making learning easier for
   you (e.g. sign-language interpreters, lactation facilities) please
   get in touch (using contact details below) and we will
   attempt to provide them.
-</p>
+</p>-->
 
 {% comment %}
   CONTACT EMAIL ADDRESS
@@ -231,9 +236,9 @@ and our administrator may contact you if we need any extra information.</h4>
   e.g., '2015-06-10-esu'.
 {% endcomment %}
 {% if page.collaborative_notes %}
-<p id="collaborative_notes">
+<p id="collaborative_notes"><b>
   We will use this <a href="{{page.collaborative_notes}}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
-</p>
+</b></p>
 {% endif %}
 
 <hr/>
