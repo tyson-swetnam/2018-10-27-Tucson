@@ -10,7 +10,7 @@ humandate: "Oct. 27-28, 2018"    # human-readable dates for the workshop (e.g., 
 humantime: "8:30-17:00"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2018-10-27      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2018-10-28        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["jill", "Marnee Dearman", "Dawson Fairbanks", "Julian Pistorius", "Tyson Swetnam"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+instructor: ["Julie", "Marnee Dearman", "Dawson Fairbanks", "Julian Pistorius", "Tyson Swetnam"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Uwe Hilgert", "Branden Lau", "Cesar Medina", "Xue Pan", "Fernando Rios", "Travis Struck", "Franklin Ventura"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["hilgert@bio5.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes: https://pad.carpentries.org/2018-10-27-Tucson            # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
@@ -311,6 +311,33 @@ Get directions with
 		  <li><a href="https://github.com/OHI-Science/ohicore/issues/104" target="_blank">Instructions to fix password error when pushing from RStudio</a></li>
 	  </ul>
   </div>
+  
+	<!-- https://swcarpentry.github.io/git-novice/ -->
+	
+<div class="row">
+  <div class="col-md-6">
+	  <h3 id="syllabus-git">Manage and share programs/files with Git</h3>
+    <ul>
+	    <li>Access a repository and pull files</li>
+	    <li>Create a repository</li>
+	    <li>Record changes: <code>add</code>, <code>commit</code>, ...</li>
+	    <li>View changes: <code>status</code>, <code>diff</code>, ...</li>
+	    <li>Ignore files</li>
+	    <li>Work on the web: <code>clone</code>, <code>pull</code>, <code>push</code>, ...</li>
+	    <li>Resolve conflicts</li>
+	  </ul>
+	  <u>Resources:</u>
+	  <ul>
+		  <li><a href="{{site.swc_pages}}/git-novice">Git Lessons</a></li>
+		  <li><a href="{{site.swc_pages}}/git-novice/reference/">Git Quick Reference</a></li>
+		  <li><a href="https://git-scm.com/book/en/v2/Git-in-Other-Environments-Git-in-Bash" target="_blank"><i>Mac/Linux:</i> Integrating Git into your shell prompt</a></li>
+		  <li><a href="https://github.com/magicmonty/bash-git-prompt" target="_blank">An informative and fancy bash prompt for Git users</a></li>
+		  <li><a href="https://education.github.com/pack" target="_blank">Unlimited <em>private</em> repositories for free on Github, <i>while you are a student</i></a></li>
+		  <li><a href="https://git-annex.branchable.com/" target="_blank">Git for Archiving Data</a></li>
+	  </ul>
+  </div>
+</div>
+  
   <hr/>
   <hr/>
 {% comment %}
