@@ -10,7 +10,7 @@ humandate: "Oct. 27-28, 2018"    # human-readable dates for the workshop (e.g., 
 humantime: "8:30-17:00"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2018-10-27      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2018-10-28        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Mindy", "Marnee Dearman", "Dawson Fairbanks", "Julian Pistorius", "Tyson Swetnam"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+instructor: ["Joel", "Marnee Dearman", "Dawson Fairbanks", "Julian Pistorius", "Tyson Swetnam"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Uwe Hilgert", "Branden Lau", "Cesar Medina", "Xue Pan", "Fernando Rios", "Travis Struck", "Franklin Ventura"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["hilgert@bio5.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes: https://pad.carpentries.org/2018-10-27-Tucson            # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
@@ -475,18 +475,11 @@ Writing code is much easier with respectively optimized text editors that includ
     <div class="col-md-4">
       <h4 id="editor-windows">Windows</h4>
 <p>
-	Click the Start button and type 'nano' into the search window. If your computer is unable to locate nano, 
-      install it by downloading/saving the <a href="{{site.swc_installer}}">
-          {% if page.carpentry == "swc" %}
-          Software Carpentry
-          {% elsif page.carpentry == "dc" %}
-          Data Carpentry
-          {% elsif page.carpentry == "lc" %}
-          Library Carpentry
-          {% endif %}
-          Windows installer.
-	</a>
-        Double-click the installer file to run it. (<strong>CAVEAT: This installer requires an active internet connection.)</strong>
+	Click the Start button and type 'git bash' into the search window.<br> 
+	Click on Git Bash to open the shell.<br>
+	Type 'nano test.txt' to open a text editor. <strong>IF this does not open the nano text editor contact the workshop administrator at the email listed above.</strong><br>
+	Type 'Test'.<br>
+	To exit the nano editor type Ctrl^X (Additional commands are listed at the bottom of the text edito window.
       </p>
     </div>
     <div class="col-md-4">
