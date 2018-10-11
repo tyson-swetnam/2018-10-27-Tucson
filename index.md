@@ -10,7 +10,7 @@ humandate: "Oct. 27-28, 2018"    # human-readable dates for the workshop (e.g., 
 humantime: "8:30-17:00"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2018-10-27      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2018-10-28        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Charles", "Marnee Dearman", "Dawson Fairbanks", "Julian Pistorius", "Tyson Swetnam"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+instructor: ["Mindy", "Marnee Dearman", "Dawson Fairbanks", "Julian Pistorius", "Tyson Swetnam"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Uwe Hilgert", "Branden Lau", "Cesar Medina", "Xue Pan", "Fernando Rios", "Travis Struck", "Franklin Ventura"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["hilgert@bio5.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes: https://pad.carpentries.org/2018-10-27-Tucson            # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
@@ -376,11 +376,10 @@ If even this does not help, please get in touch with us using contact details ab
 <hr/>
 
 <div id="shell"> {% comment %} Start of 'shell' section. {% endcomment %}
-  <h3>The Bash Shell</h3>
+  <h3>The Bash Shell (a.k.a. Command Line/Shell/Unix)</h3>
 
   <p>
-    Bash is a commonly-used shell that gives you the power to do simple
-    tasks more quickly.
+    Bash is a commonly-used shell (= Unix command language) that gives you the power to quickly do simple tasks on your computer. Bash stands for 'Bourne Again Shell'; if you are interested in the history of the term and the underlying technological development, please search the Web for 'Bash Shell'.
   </p>
 
   <div class="row">
@@ -389,39 +388,36 @@ If even this does not help, please get in touch with us using contact details ab
       <a href="https://www.youtube.com/watch?v=339AEqk9c-8">Video Tutorial</a>
       <ol>
         <li>Download the Git for Windows <a href="https://git-for-windows.github.io/">installer</a>.</li>
-        <li>Run the installer and follow the steps below:
+        {% comment %}  "Do you want to run this file?" {% endcomment %}
+      <li>Run the installer and follow the steps bellow:
           <ol>
-            {% comment %} Git 2.18.0 Setup {% endcomment %}
-            <li>
-                Click on "Next" four times (two times if you've previously
-                installed Git).  You don't need to change anything
-                in the Information, location, components, and start menu screens.
-            </li>
-            <li>
-                <strong>
-                Select “Use the nano editor by default” and click on “Next”.
-                </strong>
-            </li>
-            {% comment %} Adjusting your PATH environment {% endcomment %}
-            <li>
-                Keep "Use Git from the Windows Command Prompt" selected and click on "Next".
-                If you forgot to do this programs that you need for the workshop will not work properly.
-                If this happens rerun the installer and select the appropriate option.
-            </li>
-            {% comment %} Choosing the SSH executable {% endcomment %}
+            {% comment %}  "Information" {% endcomment %}
             <li>Click on "Next".</li>
+            {% comment %}  "Select Destination Location" {% endcomment %}
+            <li>Click on "Next".</li>
+            {% comment %}  "Select Components" {% endcomment %}
+            <li>Click on "Next".</li>
+	    {% comment %}  "Select Start Menu Folder" {% endcomment %}
+            <li>Click on "Next".</li>
+	    {% comment %}  "Choosing Default Editor" {% endcomment %}
+	   <li>Select "<strong>Use the Nano editor by default</strong>"</li>
+           <li>Click on "Next".</li>
+            {% comment %} "Adjusting your PATH environment" {% endcomment %}
+	   <li>Ensure that "<strong>Use Git from the Windows Command Prompt</strong>" is selected. (If you forget to do this gitbash will not work properly, requiring you to <strong>remove the GitBash installation, re-run the installer</strong> and to select the "Use Git from the Windows Command Prompt" option.)</li>
+           <li>Click on "Next".</li>
+	  {% comment %} Choosing the SSH executable {% endcomment %}
+            <li>Ensure that "<strong>Use the OpenSSL Library</strong>" is selected.</li>
+           <li>Click on "Next".</li>
             {% comment %} Configuring the line ending conversions {% endcomment %}
-            <li>
-                Keep "Checkout Windows-style, commit Unix-style line endings" selected and click on "Next".
-            </li>
+            <li>Ensure that "<strong>Checkout Windows-style, commit Unix-style line endings</strong>" is selected.</li>
+           <li>Click on "Next".</li>
             {% comment %} Configuring the terminal emulator to use with Git Bash {% endcomment %}
-            <li>
-              <strong>
-                Select "Use Windows' default console window" and click on "Next".
-              </strong>
-            </li>
+	    <li>Ensure that "<strong>Use Windows' default console window</strong>" is selected.</li>
+           <li>Click on "Next".</li>
             {% comment %} Configuring experimental performance tweaks {% endcomment %}
-            <li>Click on "Install".</li>
+            <li>Ensure that "<strong>Enable file system caching</strong>" and "<strong>Enable Git Credential Manager</strong>"                              are selected.</li>
+           <li>Click on "Next".</li>
+           <li>Click on "Install".</li>
             {% comment %} Installing {% endcomment %}
             {% comment %} Completing the Git Setup Wizard {% endcomment %}
             <li>Click on "Finish".</li>
