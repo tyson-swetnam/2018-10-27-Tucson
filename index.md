@@ -10,7 +10,7 @@ humandate: "Oct. 27-28, 2018"    # human-readable dates for the workshop (e.g., 
 humantime: "8:30-17:00"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2018-10-27      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2018-10-28        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Jill", "Marnee Dearman", "Dawson Fairbanks", "Julian Pistorius", "Tyson Swetnam"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+instructor: ["Jane", "Marnee Dearman", "Dawson Fairbanks", "Julian Pistorius", "Tyson Swetnam"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Uwe Hilgert", "Branden Lau", "Cesar Medina", "Xue Pan", "Fernando Rios", "Travis Struck", "Franklin Ventura"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["hilgert@bio5.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes: https://pad.carpentries.org/2018-10-27-Tucson            # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
@@ -245,6 +245,7 @@ Get directions with
 </div>
 
 <p>Schedule subject to change if necessary.</p>
+
 <hr/>
 
 {% comment %}
@@ -258,12 +259,15 @@ Get directions with
   e.g., '2015-06-10-esu'.
 {% endcomment %}
 {% if page.collaborative_notes %}
+<h2 id="collaboration">Online Collaboration</h2>
+
 <p id="collaborative_notes"><b>
   We will use this <a href="{{page.collaborative_notes}}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
 </b></p>
 {% endif %}
 
 <hr/>
+
 <h2 id="syllabus">Syllabus/Learning Objectives</h2>
 
 <div class="row">
