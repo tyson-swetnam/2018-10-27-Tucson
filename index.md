@@ -248,6 +248,8 @@ Get directions with
 <hr/>
 
 {% comment %}
+  SCHEDULE -- The original Schedule template is utterly messed up in that it (1) includes the link to the surveys which should be getting thier own header, and (2) does not allow to change the schedule template/tables. We are therefore using a table made from scratch and will not display the schedule included with the template.
+
   SYLLABUS
 
   Show what topics will be covered.
@@ -264,8 +266,10 @@ Get directions with
   please preview your site before committing, and make sure to run
   'tools/check' as well.
 {% endcomment %}
+<!--
 <h2 id="syllabus">Syllabus</h2>
-
+-->
+<!--
 {% if page.carpentry == "swc" %}
   {% include sc/syllabus.html %}
 {% elsif page.carpentry == "dc" %}
@@ -273,7 +277,37 @@ Get directions with
 {% elsif page.carpentry == "lc" %}
   {% include lc/syllabus.html %}
 {% endif %}
+-->
 
+<h2 id="schedule">Schedule</h2>
+
+<div class="row">
+  <div class="col-md-6">
+    <h3>Saturday October 27</h3>
+    <table class="table table-striped">
+       <tr> <td>08:30</td>  <td><a href="http://swcarpentry.github.io/shell-novice/" target="_blank">Automate tasks with the Unix shell</a> and <a href="http://swcarpentry.github.io/git-novice/" target="_blank">git/GitHub</a></td> </tr>
+      <tr> <td>10:30</td> <td>Coffee</td> </tr>
+      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
+      <tr> <td>13:00</td>  Unix shell/git/GitHub, cont.</td> </tr>
+      <tr> <td>14:45</td>  <td>Coffee</td> </tr>
+      <tr> <td>15:00</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/" target="_blank">Scientific Analyses with R</a> and <a href="http://swcarpentry.github.io/git-novice/" target="_blank">git/GitHub</a></td> </tr>
+      <tr> <td>17:00</td>  <td>End of Day</td> </tr>
+    </table>
+  </div>
+  <div class="col-md-6">
+    <h3>Sunday October 28</h3>
+    <table class="table table-striped">
+      <tr> <td>08:30</td>  <td><a href="http://swcarpentry.github.io/r-novice-inflammation/" target="_blank">Scientific Analyses with R</a> and <a href="http://swcarpentry.github.io/git-novice/" target="_blank">git/GitHub</a>, cont.</td> </tr>
+      <tr> <td>10:30</td>  <td>Coffee</td> </tr>
+      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
+      <tr> <td>13:00</td>  <td>R/R-Studio/git/GitHub, cont.</td> </tr>
+      <tr> <td>14:45</td>  <td>Coffee</td> </tr>
+      <tr> <td>16:00</td>  <td>End of Day</td> </tr>
+    </table>
+  </div>
+</div>
+
+<p>Schedule subject to change if necessary.</p>
 <hr/>
 
 {% comment %}
