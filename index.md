@@ -268,7 +268,7 @@ Get directions with
 
 <hr/>
 
-<h2 id="syllabus">Syllabus/Learning Objectives</h2>
+<h2 id="syllabus">Syllabus & Learning Objectives</h2>
 
 <div class="row">
   <div class="col-md-6">
@@ -352,7 +352,7 @@ Get directions with
   'tools/check' as well.
 {% endcomment %}
 
-<h2 id="setup">Setup</h2>
+<h2 id="setup">Computer Preparation</h2>
 
 <p>
   To participate in a
@@ -364,14 +364,14 @@ Get directions with
   Library Carpentry
   {% endif %}
   workshop,
-  you will need access to the software described below.
-  In addition, you will need an up-to-date web browser.
+  you will need access to the software described below. Unless you prepare your laptop as described below you will be unable to follow along.
+  In addition, you will need an up-to-date web browser, we recommend Firefox, Chrome or Safari as Internet Explorer/Edge can be buggy.
 </p>
-<p><b>
-  We maintain a list of common issues that occur during installation as a reference for instructors
-  that may be useful on the
+<p>
+<em>Should you encounter issues</em> while installing the software below, please look for a solution in our
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
-</b></p>
+If even this does not help, please get in touch with us using contact details above and we will attempt to provide a solution.
+</p>
 
 <hr/>
 
