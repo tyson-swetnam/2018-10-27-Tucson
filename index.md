@@ -279,7 +279,7 @@ Get directions with
 {% endif %}
 -->
 
-<h2 id="schedule">Schedule</h2>
+<h2>Schedule</h2>
 
 <div class="row">
   <div class="col-md-6">
