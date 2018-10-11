@@ -316,7 +316,7 @@ Get directions with
 	
 <div class="row">
   <div class="col-md-6">
-	  <h3 id="syllabus-git">Collaborate with git/GitHubt</h3>
+	  <h3 id="syllabus-git">Collaborate with <code>git</code> and GitHub</h3>
     <ul>
 	    <li>Access a repository and pull files</li>
 	    <li>Create a repository</li>
