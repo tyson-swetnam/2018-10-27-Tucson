@@ -97,10 +97,12 @@ and our administrator may contact you if we need any extra information.</h4>
 <p id="where">
   <strong>Where:</strong>
   {{page.address}}.
-  Get directions with
+  <!--
+Get directions with
   <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
   or
   <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>.
+-->
 </p>
 {% endif %}
 
