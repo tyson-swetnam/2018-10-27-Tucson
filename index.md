@@ -10,7 +10,7 @@ humandate: "Oct. 27-28, 2018"    # human-readable dates for the workshop (e.g., 
 humantime: "8:30-17:00"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2018-10-27      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2018-10-28        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Jane", "Marnee Dearman", "Dawson Fairbanks", "Julian Pistorius", "Tyson Swetnam"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+instructor: ["Jack", "Marnee Dearman", "Dawson Fairbanks", "Julian Pistorius", "Tyson Swetnam"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Uwe Hilgert", "Branden Lau", "Cesar Medina", "Xue Pan", "Fernando Rios", "Travis Struck", "Franklin Ventura"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["hilgert@bio5.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes: https://pad.carpentries.org/2018-10-27-Tucson            # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
@@ -702,16 +702,15 @@ Get directions with
   </div>
 </div> {% comment %} End of 'R' section. {% endcomment %}
 
+<!--
 <div id="sql"> {% comment %} Start of 'SQLite' section. {% endcomment %}
   <h3>SQLite</h3>
-
-  <p>
+<p>
     SQL is a specialized programming language used with databases.  We
     use a simple database manager called
     <a href="https://www.sqlite.org/">SQLite</a> in our lessons.
   </p>
-
-  <div class="row">
+<div class="row">
     <div class="col-md-4">
       <h4 id="sql-windows">Windows</h4>
       <p>
@@ -742,12 +741,10 @@ Get directions with
       </p>
     </div>
   </div>
-
-  <p><strong>If you installed Anaconda, it also has a copy of SQLite
+<p><strong>If you installed Anaconda, it also has a copy of SQLite
     <a href="https://github.com/ContinuumIO/anaconda-issues/issues/307">without support to <code>readline</code></a>.
     Instructors will provide a workaround for it if needed.</strong></p>
 </div> {% comment %} End of 'SQLite' section. {% endcomment %}
-
 <div id="openrefine"> {% comment %} Start of 'OpenRefine' section. {% endcomment %}
   <h3>OpenRefine</h3>
   <p>
@@ -755,8 +752,7 @@ Get directions with
     web browser. <em>Note:</em> this is a Java program that runs on your machine (not in the cloud).
     It runs inside a web browser, but no web connection is needed.
   </p>
-
-  <div class="row">
+<div class="row">
     <div class="col-md-4">
       <h4 id="openrefine-windows">Windows</h4>
       <p>
@@ -794,11 +790,11 @@ Get directions with
     </div>
   </div>
 </div> {% comment %} End of 'OpenRefine' section. {% endcomment %}
-
+-->
+<!--
 {% comment %}
 <div id="vm">
   <h3>Virtual Machine</h3>
-
   <p>
     Some instructors prefer to have learners use a virtual machine (VM)
     rather than install software on their own computers.  If your
@@ -820,3 +816,4 @@ Get directions with
   </ol>
 </div>
 {% endcomment %}
+-->
